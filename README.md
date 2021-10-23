@@ -54,7 +54,8 @@ The Logo/Image you will find in this project are downloaded from Wikipedia in .s
   python app.py
 ```
 - The .evtx file you will find in the project is just a sample .evtx file. You can view your own .evtx files by going to: C:\Windows\System32\winevt\Logs
-
+- Everytime you run the app, this is the UI you'll find.
+![image](https://user-images.githubusercontent.com/57764004/138548875-877ab1ea-bc02-4bb8-92e0-a72522945157.png)
 
 ## Documentation
 
