@@ -1,0 +1,23 @@
+This is the main directory of the project. Let me familiarize with the files 
+and directories present here!
+
+-   README.md is the file to help you out in your queries and help you get started.
+
+-   app.py is the Tkinter Application file.
+
+-   evtx_dump.py file is the python file having the algorithm to parse the xml object in the event log files.
+    It accepts file path string as argument and then generates the output
+    in the form of xml object.
+
+-   Logs directoory has all the .evtx files at one place. You are free to keep the event log files in your 
+    prefered location.
+
+-   Log_XMLs directory keeps the xml output files. You'll find all the xml files here.
+
+-   icon.png is the icon that you'll find on the app interface.
+
+-   requirements.txt is the file having the list of versions of different packages important for this project 
+    to work in your pc.
+
+-   .gitignore file contains the file that you might have to create on your own. Don't worry, instructions 
+    are there in the .gitignore file.

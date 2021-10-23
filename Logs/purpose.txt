@@ -1,0 +1,8 @@
+# This directory is for adding the sample .evtx files that
+# you wish to read as an .xml file.
+# So go to the Logs folder in your PC and copy paste some
+# of the event files from there to here.
+
+# Then run the app.py application and select those files.
+
+# Find the output in ../Log_XMLs directory.

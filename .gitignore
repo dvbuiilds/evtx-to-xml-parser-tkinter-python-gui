@@ -1,0 +1,12 @@
+# This .gitignore is to inform you that
+# the author of this repository has not
+# pushed 1 file to the git.
+# The file is by the name pc_variables.py
+# that you will find referenced in app.py
+# please create a simple python file by the
+# same name and add the following identifiers in it.
+
+# browser_path_in_my_pc = 'path address of your browser application in C drive which is in program files %s'
+# url_path_for_browser = 'file://' + 'path address of the .xml file generated in the directory 'Log_XMLs' in the project repo'
+
+pc_variables.py

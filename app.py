@@ -27,12 +27,14 @@ def open_xml(xmlfile):
 
 
 def open_file():
-    file= askopenfile(parent = root, mode='rb', title="Choose a file")
+    file= askopenfile(parent = root, mode='rb', title="Choose a file", initialdir="Logs/")
     xmlfile = None
     if file:
         file = str(file.name)
         xmlfile = Run_Button(file)
-    open_xml(xmlfile)
+        open_xml(xmlfile)
+    else:
+        print("No file selected! Please select a file to parse.")
 
 
 if __name__ == "__main__":
