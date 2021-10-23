@@ -10,3 +10,4 @@
 # url_path_for_browser = 'file://' + 'path address of the .xml file generated in the directory 'Log_XMLs' in the project repo'
 
 pc_variables.py
+__pycache__

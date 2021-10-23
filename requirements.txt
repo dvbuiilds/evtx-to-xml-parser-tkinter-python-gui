@@ -1,2 +1,3 @@
 Evtx==0.7.2
 Pillow==8.4.0
+Tkinter==8.6
