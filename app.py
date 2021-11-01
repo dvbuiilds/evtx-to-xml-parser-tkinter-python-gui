@@ -12,7 +12,7 @@ def Run_Button(file):
     output_name = "Log_XMLs/" + os.path.basename(file)
     output_name = os.path.splitext(output_name)[0] + '.xml'
     f = open(output_name, "w", encoding = "utf-8")
-    stout = subprocess.check_output(['python', dumppath, file])
+    stout = subprocess.check_output(['python', dumppath, file], shell=True)
     stout = stout.decode('utf-8')
     f.write(stout)
     f.close()
