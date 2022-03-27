@@ -9,10 +9,10 @@ from pc_variables import browser_path_in_my_pc, url_path_for_browser
 
 def Run_Button(file):
     dumppath = "evtx_dump.py"
-    output_name = "Log_XMLs/" + os.path.basename(file)
+    output_name = os.path.join("Log_XMLs", os.path.basename(file))
     output_name = os.path.splitext(output_name)[0] + '.xml'
     f = open(output_name, "w", encoding = "utf-8")
-    stout = subprocess.check_output(['python', dumppath, file])
+    stout = subprocess.check_output(['python', dumppath, file], shell=True)
     stout = stout.decode('utf-8')
     f.write(stout)
     f.close()
@@ -22,7 +22,7 @@ def Run_Button(file):
 def open_xml(xmlfile):
     # Add browser location from the C drive below:
     browser_location = browser_path_in_my_pc
-    pathadd = url_path_for_browser + xmlfile
+    pathadd = os.path.join(url_path_for_browser, xmlfile)
     webbrowser.get(browser_location).open(pathadd)
 
 
